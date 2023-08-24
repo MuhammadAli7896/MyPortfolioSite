@@ -1,4 +1,6 @@
 import {
+    AI_Fest,
+    KodarzClub,
     c,
     github,
     cpp,
@@ -28,6 +30,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    darkMode,
+    MealGen,
+    HighOrder,
+    RegistrationForm,
+    typingGame,
+    expenseTracker,
+    KodarzClub,
 } from "../assets";
 
 import github2 from "../assets/tech/github.png"
@@ -183,93 +192,156 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Acheived 2nd Position in Speed Debugging competition in AI Fest 4.0 along with two classmates",
+        name: "AI Fest 4.0",
+        designation: "June",
+        company: "2023",
+        image: AI_Fest,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Runner-ups in Kodarz Kombat Speed Programming Competition",
+        name: "Kodarz Club",
+        designation: "June",
+        company: "2023",
+        image: KodarzClub,
     },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //     testimonial:
+    //         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //     name: "Lisa Wang",
+    //     designation: "CTO",
+    //     company: "456 Enterprises",
+    //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Expense Tracker",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Track and manage your expenses seamlessly with my latest project created using HTML, CSS, and JavaScript. Experience a user-friendly expense tracking interface offering diverse options and operations, empowering you to take control of your financial journey.",
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "HTML",
+                color: "pink-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
-                color: "pink-text-gradient",
+                name: "CSS",
+                color: "blue-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: expenseTracker,
+        source_code_link: "https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_9%20(Expense%20Tracker)",
     },
     {
-        name: "Job IT",
+        name: "Higher Order Array Methods",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A dynamic web application built using HTML, CSS, and JavaScript. Explore randomly generated user profiles, their wealth, and utilize higher order array methods for sorting, filtering, mapping, and aggregation, gaining insights into wealth disparities and programming techniques.",
         tags: [
             {
-                name: "react",
+                name: "HTML",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: HighOrder,
+        source_code_link: "https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_5%20(High%20Order%20Array%20Methods) ",
     },
     {
-        name: "Trip Guide",
+        name: "Typing Game",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Immerse yourself in the ultimate typing challenge through my HTML, CSS, and JS project featuring an engaging typing game. Put your speed to the test as you type the displayed word within a limited timeframe, with local storage utilized for high-score tracking and seamless DOM manipulation enhancing the immersive gaming experience.",
         tags: [
             {
-                name: "nextjs",
+                name: "HTML",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: typingGame,
+        source_code_link: "https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_12%20(Typing%20Games)",
+    },
+    {
+        name: "Meal Generator",
+        description:
+            "Check out this HTML, CSS, and JS project, offering a dynamic meal search experience. Harnessing the power of the Fetch API and promises, users can seamlessly search for their desired meal, triggering API calls to display mouthwatering images that cater to their gastronomic curiosity",
+        tags: [
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: MealGen,
+        source_code_link: "https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_8%20(Meal%20Generator)",
+    },
+    {
+        name: "Registration Form",
+        description:
+            "Check this React.js project featuring a meticulously crafted form. Users enjoy a seamless process as the form ensures data integrity by validating required fields, notifying users of password length requirements, verifying email validity, and providing a fresh slate by clearing fields upon successful submission.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            // {
+            //     name: "JavaScript",
+            //     color: "green-text-gradient",
+            // },
+            // {
+            //     name: "CSS",
+            //     color: "pink-text-gradient",
+            // },
+        ],
+        image: RegistrationForm,
+        source_code_link: "https://github.com/MuhammadAli7896/ReactJS-Projects/tree/main/RegistrationForm",
+    },
+    {
+        name: "Dark Mode and Custom Hook",
+        description:
+            "Unveil enhanced time navigation with my React project, powered by a custom hook that effortlessly unveils the previous and next days of the week. Elevating the user experience, the integration of an instant-rendering dark mode switcher, facilitated by the useTheme hook, brings seamless visual transformation to this dynamic application.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            // {
+            //     name: "JavaScript",
+            //     color: "green-text-gradient",
+            // },
+            // {
+            //     name: "CSS",
+            //     color: "pink-text-gradient",
+            // },
+        ],
+        image: darkMode,
+        source_code_link: "https://github.com/MuhammadAli7896/ReactJS-Projects/tree/main/CustomHooks",
     },
 ];
 

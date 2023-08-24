@@ -10,7 +10,6 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import cpp from "./tech/cpp.png";
 import c from "./tech/c.png";
-// import github from "./tech/github.png";
 import nextjs from "./tech/nextjs.png";
 import python from "./tech/python.png";
 import docker from "./tech/docker.png";
@@ -30,13 +29,29 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+// import KodarzKombat from "./company/Kodarz-Kombat-2.png";
+import KodarzClub from "./company/Kodarz-Club.png";
+import AI_Fest from "./company/ai_fest.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import darkMode from "./dark-mode.png";
+import MealGen from "./Meal-Gen.jpeg";
+import HighOrder from "./high-order.jpeg";
+import RegistrationForm from "./Reg-Form.png";
+import typingGame from "./typing-game.jpeg";
+import expenseTracker from "./etracker.png";
 
 export {
-  // github,
+  KodarzClub,
+  AI_Fest,
+  darkMode,
+  MealGen,
+  HighOrder,
+  RegistrationForm,
+  typingGame,
+  expenseTracker,
   cpp,
   c,
   nextjs,
