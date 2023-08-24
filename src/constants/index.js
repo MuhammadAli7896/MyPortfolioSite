@@ -1,6 +1,7 @@
 import {
     AI_Fest,
     KodarzClub,
+    // KodarzKombat,
     c,
     github,
     cpp,
@@ -36,7 +37,6 @@ import {
     RegistrationForm,
     typingGame,
     expenseTracker,
-    KodarzClub,
 } from "../assets";
 
 import github2 from "../assets/tech/github.png"
