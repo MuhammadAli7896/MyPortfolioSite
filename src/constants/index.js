@@ -1,4 +1,9 @@
 import {
+    c,
+    github,
+    cpp,
+    nextjs,
+    python,
     mobile,
     backend,
     creator,
@@ -25,15 +30,21 @@ import {
     threejs,
 } from "../assets";
 
+import github2 from "../assets/tech/github.png"
+
 export const navLinks = [
     {
         id: "about",
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "projects",
+        title: "Projects",
     },
+    // {
+    //     id: "work",
+    //     title: "Work",
+    // },
     {
         id: "contact",
         title: "Contact",
@@ -42,19 +53,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Next.js",
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React.js",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Tailwind CSS",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "C and C++",
         icon: creator,
     },
 ];
@@ -73,16 +84,16 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
+        name: "C++",
+        icon: cpp,
     },
     {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Next JS",
+        icon: nextjs,
     },
     {
         name: "Tailwind CSS",
@@ -101,16 +112,16 @@ const technologies = [
         icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+        name: "github",
+        icon: github2,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "python",
+        icon: python,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "C",
+        icon: c,
     },
 ];
 

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./ali-logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,6 +8,11 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import cpp from "./tech/cpp.png";
+import c from "./tech/c.png";
+// import github from "./tech/github.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -31,6 +36,11 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  // github,
+  cpp,
+  c,
+  nextjs,
+  python,
   logo,
   backend,
   creator,
