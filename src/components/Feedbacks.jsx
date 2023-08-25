@@ -22,7 +22,7 @@ const FeedbackCard = ({
     {/* <p className='text-white font-black text-[48px]'>"</p> */}
     <FontAwesomeIcon icon={faTrophy} size="2x" />
 
-    <div className='mt-1'>
+    <div className='mt-3'>
       <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
